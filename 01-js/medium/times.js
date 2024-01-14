@@ -9,5 +9,16 @@ There is no automated test for this one, this is more for you to understand time
 */
 
 function calculateTime(n) {
-    return 0.01;
+
+let sum =0
+for(let i=1;i<=n;i++)
+{
+sum+=i;
 }
+}
+let beforeTime = new Date();
+let bef = beforeTime.getTime()
+let c= calculateTime(10000000000);
+let afterTime = new Date();
+let aft = afterTime.getTime()
+console.log((aft-bef)/1000);
