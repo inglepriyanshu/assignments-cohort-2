@@ -1,0 +1,2 @@
+Hello, this is some content to be written to a file. Hello, this is the appended part Hello, this is the appended part 
+Hello, this is the appended part
